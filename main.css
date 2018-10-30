@@ -19,6 +19,11 @@ nav > ul > .buttons > a > li {
     padding-left: 17.5px;
 }
 
+.logo {
+    width: 262px;
+    margin-top: 7px;
+}
+
 nav > ul > .buttons > a > li:hover {
     background-color: #2F7FBE;
     padding-top: 10px;
@@ -32,7 +37,7 @@ nav > ul > .buttons > a {
 .buttons {
     display: inline;
     position: fixed;
-    margin-top: 45px;
+    margin-top: 41px;
 }
 
 nav > ul {
@@ -45,7 +50,7 @@ nav > ul > a > h1 {
     display: inline;
     float: right;
     margin-right: 42px;
-    margin-top: 36px;
+    margin-top: 29px;
     font-size: 16px;
     font-weight: 400;
     color: white;
@@ -66,10 +71,11 @@ nav > ul > a > h1:hover {
 nav {
     position: fixed;
     left: 50%;
-    top: 50px;
+    top: 49px;
     transform: translate(-50%, -50%);
     background-color: #0069BB;
     width: 100%;
+    height: 99px
 }
 
 .menu-btn {
@@ -105,6 +111,7 @@ nav {
     .menu-btn {
         display: block;
         transition: 0.4s ease;
+        top: 19px
     }
 
     nav > ul > a > h1 {
@@ -142,7 +149,8 @@ nav {
     }
 
     .logo {
-        width: 226px;
+        width: 193px;
+        margin-top: 0px
     }
 
     .menu-btn {
