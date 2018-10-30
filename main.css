@@ -89,6 +89,62 @@ nav {
 }
 
 
+/*------------Sub Header ------------------*/
+
+
+.sub-header {
+    margin-top: 130px;
+    width: 657px;
+    margin-left: 33px;
+    margin-bottom: 559px;
+}
+
+.head-text > h2 {
+    font-size: 51px;
+    color: white
+}
+
+.head-text > h4 {
+    width: 292px;
+    line-height: 34px;
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: -28px;
+    color: white;
+}
+
+.head-interact {
+    width: 100%;
+}
+
+.head-interact > .banner {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 76px;
+    z-index: -1;
+    ;
+    object-fit: cover;
+    height: 700px;
+}
+
+.action-wrapper {
+    width: 100%;
+}
+
+.act1 {
+    width: 50px;
+}
+
+.action-wrapper > .act2 {
+    display: none
+}
+
+.action-wrapper:hover .act2 {
+    display: block;
+    border-radius: 50px;
+}
+
 /* ------------Media Queries--------------*/
 
 @media screen and (min-width:1390px) {
