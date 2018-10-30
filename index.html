@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NDORI - National Diabetes and Obesity Research Institute </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="Branding/Favicon.png" />
+    <link rel="stylesheet" href="vivify.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="navwrapper">
+        <nav>
+            <ul>
+                <a href=""><img class="logo" src="White_NDORI3.png"></a>
+                <div class="buttons vivify fadeInLeft" id="items">
+                    <a href="">
+                        <li>HOME</li>
+                    </a>
+                    <a href="">
+                        <li>NEED FOR A CURE </li>
+                    </a>
+                    <a href="">
+                        <li>OUR ORGANIZATION</li>
+                    </a>
+                    <a href="">
+                        <li>OUR PROGRAMS</li>
+                    </a>
+                    <a href="">
+                        <li>CONTACT US</li>
+                    </a>
+                    <a href="">
+                        <li>DONATE</li>
+                    </a>
+                </div>
+                <a href="">
+                    <h1>Sign Up</h1>
+                </a>
+            </ul> <img id="menu" class="menu-btn" src="Assets/ic_menu_24px.svg">
+        </nav>
+    </div>
+    <script>
+        var toggle = document.getElementById("menu");
+        var content = document.getElementById("items");
+        toggle.addEventListener("click", function() {
+            content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
+        });
+    </script><img src="https://source.unsplash.com/1920x3000/?nature,water">
+</body>
+
+</html>

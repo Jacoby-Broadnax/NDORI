@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    font-family: sans-serif, roboto;
+}
+
+
+/* ------------Navigation Bar--------------*/
+
+nav > ul > .buttons > a > li {
+    text-decoration: none;
+    display: inline;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    color: white;
+    font-size: 13px;
+    transition: 0.2s ease;
+    margin: 0 auto;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+}
+
+nav > ul > .buttons > a > li:hover {
+    background-color: #2F7FBE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav > ul > .buttons > a {
+    text-decoration: none;
+}
+
+.buttons {
+    display: inline;
+    position: fixed;
+    margin-top: 45px;
+}
+
+nav > ul {
+    text-decoration: none;
+    margin: auto;
+    width: 1300px;
+}
+
+nav > ul > a > h1 {
+    display: inline;
+    float: right;
+    margin-right: 42px;
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-right: 43px;
+    padding-left: 43px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    transition: 0.2s ease;
+}
+
+nav > ul > a > h1:hover {
+    background-color: #2F7FBE
+}
+
+nav {
+    position: fixed;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+    background-color: #0069BB;
+    width: 100%;
+}
+
+.menu-btn {
+    display: none;
+    width: 22px;
+    position: fixed;
+    right: 50px;
+    top: 47px;
+}
+
+
+/* ------------Media Queries--------------*/
+
+@media screen and (min-width:1390px) {
+    .fadeInRight {
+        animation: none;
+        transform: none
+    }
+}
+
+@media screen and (max-width:1390px) {
+    .buttons {
+        display: none;
+    }
+
+    nav > ul > a > h1 {
+        position: fixed;
+        right: 76px;
+    }
+
+    .menu-btn {
+        display: block;
+        transition: 0.4s ease;
+    }
+
+    .menu-btn:hover {
+        padding: 15px;
+        background-color: #2F7FBE;
+        top: 32px;
+        right: 35px;
+        cursor: pointer
+    }
+
+    .menu-btn:active {
+        right: 50px;
+        top: 47px;
+        padding: 0px;
+    }
+
+    .buttons {
+        width: 177px;
+        line-height: 51px;
+        text-align: center;
+        position: fixed;
+        right: 0px;
+        background-color: #0091C8;
+        height: 1000px;
+        padding-top: 97px;
+        top: 0px;
+    }
+
+    nav > ul > .buttons > a > li {
+        display: block;
+        transition: 0.5s ease;
+    }
+
+    nav > ul > .buttons > a > li:hover {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    nav {
+        height: 77px
+    }
+}
